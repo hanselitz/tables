@@ -14,7 +14,7 @@
 		EFBE065A19E06A9F006998DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBE065919E06A9F006998DE /* main.m */; };
 		EFBE065E19E06A9F006998DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBE065D19E06A9F006998DE /* AppDelegate.m */; };
 		EFBE066119E06A9F006998DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFBE065F19E06A9F006998DE /* Main.storyboard */; };
-		EFBE066419E06A9F006998DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBE066319E06A9F006998DE /* ViewController.m */; };
+		EFBE066419E06A9F006998DE /* InitialTable.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBE066319E06A9F006998DE /* InitialTable.m */; };
 		EFBE066619E06A9F006998DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFBE066519E06A9F006998DE /* Images.xcassets */; };
 		EFBE066D19E06AA0006998DE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFBE066C19E06AA0006998DE /* XCTest.framework */; };
 		EFBE066E19E06AA0006998DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFBE064D19E06A9F006998DE /* Foundation.framework */; };
@@ -45,8 +45,8 @@
 		EFBE065C19E06A9F006998DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EFBE065D19E06A9F006998DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EFBE066019E06A9F006998DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EFBE066219E06A9F006998DE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EFBE066319E06A9F006998DE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EFBE066219E06A9F006998DE /* InitialTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InitialTable.h; sourceTree = "<group>"; };
+		EFBE066319E06A9F006998DE /* InitialTable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InitialTable.m; sourceTree = "<group>"; };
 		EFBE066519E06A9F006998DE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EFBE066B19E06AA0006998DE /* tablesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tablesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFBE066C19E06AA0006998DE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -115,8 +115,8 @@
 				EFBE065C19E06A9F006998DE /* AppDelegate.h */,
 				EFBE065D19E06A9F006998DE /* AppDelegate.m */,
 				EFBE065F19E06A9F006998DE /* Main.storyboard */,
-				EFBE066219E06A9F006998DE /* ViewController.h */,
-				EFBE066319E06A9F006998DE /* ViewController.m */,
+				EFBE066219E06A9F006998DE /* InitialTable.h */,
+				EFBE066319E06A9F006998DE /* InitialTable.m */,
 				EFBE066519E06A9F006998DE /* Images.xcassets */,
 				EFBE065419E06A9F006998DE /* Supporting Files */,
 			);
@@ -249,7 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFBE066419E06A9F006998DE /* ViewController.m in Sources */,
+				EFBE066419E06A9F006998DE /* InitialTable.m in Sources */,
 				EFBE065E19E06A9F006998DE /* AppDelegate.m in Sources */,
 				EFBE065A19E06A9F006998DE /* main.m in Sources */,
 			);
